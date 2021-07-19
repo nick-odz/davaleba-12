@@ -1,0 +1,36 @@
+body{
+    padding-top: 74px;
+}
+.header{
+    background-color: #C2DBE9;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+    div{
+        width: 1800px;
+        margin: 0 auto;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        ul{
+            display: flex;
+            width: 600px;
+            justify-content: space-between;
+        }
+        .contact{
+            background-color: #4468E2;
+            color: white;
+            width: 104px;
+            height: 34px;
+            border-radius: 17px;
+            @include d-flex(flex,center, center)
+            
+        }
+    }
+}
